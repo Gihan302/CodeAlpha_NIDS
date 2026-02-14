@@ -1,0 +1,13 @@
+{
+    "port_scan_threshold": 10,
+    "syn_flood_threshold": 50,
+    "packet_rate_threshold": 100,
+    "suspicious_ports": [
+        23,
+        135,
+        139,
+        445,
+        3389
+    ],
+    "time_window": 10
+}
