@@ -1,0 +1,8 @@
+{"type": "PORT_SCAN", "severity": "HIGH", "src_ip": "192.168.1.100", "timestamp": "2026-02-16T16:19:45.185749", "details": "Port scan detected from 192.168.1.100. Scanned 15 ports: [22, 80, 443, 8080, 3389, ...]"}
+{"type": "SYN_FLOOD", "severity": "CRITICAL", "src_ip": "203.0.113.5", "timestamp": "2026-02-16T16:21:45.185749", "details": "SYN flood attack detected from 203.0.113.5. 75 SYN packets in 10 seconds"}
+{"type": "MALICIOUS_IP", "severity": "CRITICAL", "src_ip": "45.142.120.10", "timestamp": "2026-02-16T16:23:45.185749", "details": "Traffic from known malicious IP: 45.142.120.10"}
+{"type": "SUSPICIOUS_PORT", "severity": "MEDIUM", "src_ip": "192.168.1.105", "timestamp": "2026-02-16T16:24:45.185749", "details": "Access to suspicious port 445 from 192.168.1.105"}
+{"type": "HIGH_PACKET_RATE", "severity": "MEDIUM", "src_ip": "192.168.1.100", "timestamp": "2026-02-16T16:25:45.185749", "details": "Abnormal packet rate from 192.168.1.100: 150 packets in 10 seconds"}
+{"type": "PORT_SCAN", "severity": "HIGH", "src_ip": "192.168.1.110", "timestamp": "2026-02-16T16:26:45.185749", "details": "Port scan detected from 192.168.1.110. Scanned 20 ports"}
+{"type": "SYN_FLOOD", "severity": "CRITICAL", "src_ip": "198.51.100.15", "timestamp": "2026-02-16T16:27:45.185749", "details": "SYN flood attack detected from 198.51.100.15. 120 SYN packets in 10 seconds"}
+{"type": "SUSPICIOUS_PORT", "severity": "MEDIUM", "src_ip": "192.168.1.100", "timestamp": "2026-02-16T16:28:45.185749", "details": "Access to suspicious port 3389 from 192.168.1.100"}
